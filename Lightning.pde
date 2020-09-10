@@ -68,7 +68,7 @@ void draw()
   line(460,415,480,470);
   line(480,470,500,490);
   
-stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),200);
+stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),100);
   while(endX < 500)
   {
     endX = startX + (int)((Math.random()*35)-15);
