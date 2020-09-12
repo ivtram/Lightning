@@ -13,9 +13,10 @@ void setup()
   g = (int)(Math.random()*255);
   size(500,500);
   strokeWeight(2.5);
-  background(100);
-  
+  background(250);
+  frameRate(200);
 }
+
 void draw()
 {
   fill(0,0,0,4);
@@ -85,6 +86,9 @@ stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255
   
 void mousePressed()
 {
+  fill(250);
+  rect(0,0,500,500);
+  
   endX = (int)(Math.random()*500);
   startX = (int)((Math.random()*200)+100);
   endY = 0;
