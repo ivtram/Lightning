@@ -13,10 +13,13 @@ void setup()
   g = (int)(Math.random()*255);
   size(500,500);
   strokeWeight(2.5);
-  background(35);
+  background(100);
+  
 }
 void draw()
 {
+  fill(0,0,0,4);
+  rect(0,0,500,500);
   stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   line(0,0,10,20);
   line(10,20,17,25);
@@ -68,7 +71,7 @@ void draw()
   line(460,415,480,470);
   line(480,470,500,490);
   
-stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),200);
   while(endX < 500)
   {
     endX = startX + (int)((Math.random()*35)-15);
